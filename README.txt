@@ -4,7 +4,7 @@
 *
 * This Library is licensed under a GPLv3 License
 ***************************************************************
-#THE BASICS
+## THE BASICS
 What Is PID?
 
 From Wikipedia: "A PID controller calculates an 'error' value as the difference between a measured [Input] and a desired setpoint. The controller attempts to minimize the error by adjusting [an Output]."
@@ -13,7 +13,7 @@ So, you tell the PID what to measure (the "Input",) Where you want that measurem
 
 For reference, in a car, the Input, Setpoint, and Output would be the speed, desired speed, and gas pedal angle respectively.
 
-#Tuning Parameters
+## Tuning Parameters
 
 The black magic of PID comes in when we talk about HOW it adjusts the Output to drive the Input towards Setpoint. There are 3 Tuning Parameters (or "Tunings"): Kp, Ki & Kd. Adjusting these values will change the way the output is adjusted. Fast? Slow? God-awful? All of these can be achieved depending on the values of Kp, Ki, and Kd.
 
